@@ -1,0 +1,29 @@
+[class^="st-key-chat-"],
+[class*=" st-key-chat-"] {
+    width: 100% !important;
+}
+
+[class^="st-key-chat-"] button,
+[class*=" st-key-chat-"] button,
+[class^="st-key-chat-"] button:active,
+[class*=" st-key-chat-"] button:active {
+    border: none;
+    width: 100% !important;
+    justify-content: flex-start;
+    background-color: transparent;
+    background-color: rgba(151, 166, 195, 0.15);
+}
+
+
+[class^="st-key-chat-"].active button,
+[class*=" st-key-chat-"].active button {
+    border: none;
+    width: 100% !important;
+    /* color: rgb(85, 88, 103); */
+    background-color: rgba(151, 166, 195, 0.25);
+}
+
+[class^="st-key-chat-"] button:hover,
+[class*=" st-key-chat-"] button:hover {
+    background-color: rgba(151, 166, 195, 0.45);
+}
